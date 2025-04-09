@@ -1,4 +1,4 @@
-# GoWay - Your Ultimate Green Office Park Navigator (iOS Only)
+# GoWay - Your Pocket Guide to GOP
 
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native%20iOS%20Framework-orange.svg?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
 [![MapKit](https://img.shields.io/badge/MapKit-Apple%20Maps%20Integration-blue.svg?style=flat-square)](https://developer.apple.com/documentation/mapkit)
@@ -43,7 +43,7 @@ Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and
 
 GoWay leverages the following key functionalities:
 
-* **Offline Data Storage:** Building and facility data, as well as navigation path information and images, are stored locally on the device, ensuring offline functionality.
+* **Offline Data Storage:** Building and facility data and navigation path information, and images are stored locally on the device, ensuring offline functionality.
 * **Custom Map Annotations:** MapKit is used to display custom annotations for each building and facility within Green Office Park.
 * **Route Calculation:** CoreLocation data is utilized to calculate optimal outdoor routes between selected buildings.
 * **Image-Based Navigation:** A curated collection of geotagged images is used to provide step-by-step visual guidance during navigation.
@@ -69,7 +69,7 @@ Contributions to GoWay are welcome! If you have suggestions for improvements, bu
 
 ## 🙏 Acknowledgements
 
-* Special thanks to the management and stakeholders of Green Office Park for their potential collaboration or publicly available information. Also, Mr. Vovo for all the carry.
+* Special thanks to the management and stakeholders of Green Office Park for their potential collaboration or publicly available information. Also, Mr. Vovo, for all the carry.
 
 ## 📜 License
 
@@ -95,5 +95,6 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWAR
+SOFTWARE
 
+------------------------------------------------------------------------------------
