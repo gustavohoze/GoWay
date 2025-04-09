@@ -7,7 +7,7 @@ struct BuildingData {
             id: UUID(),
             name: "Green Office Park 1",
             categories: ["Office"],
-            description: "tEST git GOP 1 houses a variety of corporate offices within a modern, eco-certified building. Ideal for business professionals, it's surrounded by green landscapes and walking paths.",
+            description: "GOP 1 houses a variety of corporate offices within a modern, eco-certified building. Ideal for business professionals, it's surrounded by green landscapes and walking paths.",
             latitude: -6.30064,
             longitude: 106.65054,
             image: "gop_1",
