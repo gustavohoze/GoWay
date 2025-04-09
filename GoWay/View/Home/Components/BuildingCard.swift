@@ -14,7 +14,7 @@ struct BuildingCard: View {
                 Image(building.image)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 110, height: 110)
+                    .frame(width: 100, height: 100)
                     .cornerRadius(10)
                     .clipped()
                 
@@ -22,44 +22,46 @@ struct BuildingCard: View {
                     Spacer()
                     
                     HStack {
-                        Text(formatBuildingName(building.name))
+                        Text(building.name)
                             .foregroundColor(.black)
-                            .font(.title3)
+                            .font(.subheadline)
                             .fontWeight(.bold)
                         
                         Spacer()
                         
                         Text(distanceText)
                             .foregroundColor(.black)
-                            .font(.footnote)
+                            .font(.caption2)
                     }
+
                     
                     Text(building.categories.joined(separator: ", "))
-                        .font(.subheadline)
+                        .font(.caption)
                         .foregroundColor(.blue)
+
                     
                     Text(building.description)
                         .foregroundColor(.black)
-                        .frame(width: 180, height: 50, alignment: .leading)
-                        .font(.body)
-                        .lineLimit(3)
+                        .frame(width: 180,height: 40, alignment: .leading)
+                        .font(.caption2)
+                        .lineLimit(2)
                         .truncationMode(.tail)
                         .multilineTextAlignment(.leading)
-                    
                     Spacer()
+                    
                 }
                 .padding(.horizontal, 10)
             }
-            .frame(maxWidth: 330, maxHeight: 120)
+            .frame(maxWidth: 330, maxHeight: 100)
             .padding()
             .background(Color.white)
-            .cornerRadius(15)
-            .shadow(radius: 2)
+            //            .cornerRadius(15)
+            //            .shadow(radius: 2)
             .padding(5)
         }.navigationBarBackButtonHidden(true)
-        .task {
-            await calculateDistance()
-        }
+            .task {
+                await calculateDistance()
+            }
     }
     
     private func calculateDistance() async {
@@ -84,3 +86,4 @@ struct BuildingCard: View {
         }
     }
 }
+
