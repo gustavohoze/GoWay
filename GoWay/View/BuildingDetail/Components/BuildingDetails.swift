@@ -15,18 +15,13 @@ struct BuildingDetails: View {
                 .multilineTextAlignment(.center)
                 .foregroundColor(.black)
             
-            Text(building.description)
-                .font(.body)
-                .foregroundColor(.black)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal)
             
             Text("Monday–Friday: 08.00 AM – 06.00 PM")
                 .font(.subheadline)
                 .foregroundColor(.gray)
                 .padding(.top, 8)
         }
-        .frame(width: 375, height: 250)
+        .frame(width: 375, height: 140)
         .padding(.horizontal, 16)
         .padding(.top, 16)
         .background(Color.white)

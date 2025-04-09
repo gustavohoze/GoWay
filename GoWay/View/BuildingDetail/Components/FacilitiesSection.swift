@@ -34,7 +34,7 @@ struct FacilitiesSection: View {
         if !facilities.isEmpty {
             ZStack {
                 Color.white
-                VStack(alignment: .leading, spacing: 12) {
+                VStack(alignment: .leading, spacing: 4) {
                     Text("Facilities")
                         .font(.headline)
                         .padding(.horizontal)
@@ -49,7 +49,7 @@ struct FacilitiesSection: View {
                                     ZStack {
                                         Image(facility.imageName)
                                             .resizable()
-                                            .scaledToFit()
+                                            .scaledToFill()
                                             .frame(width: 100, height: 100)
                                             .clipped()
                                             .cornerRadius(10)
@@ -63,24 +63,22 @@ struct FacilitiesSection: View {
                                     }
                                     
                                     Spacer()
-                                    
-                                    Text(facility.name)
-                                        .foregroundStyle(Color.black)
-                                        .font(.footnote)
-                                        .multilineTextAlignment(.center)
-                                        .frame(width: 100, height: 55)
+                                    VStack{
+                                        Text(facility.name)
+                                            .foregroundStyle(Color.black)
+                                            .font(.footnote)
+                                            .multilineTextAlignment(.center)
+                                            .frame(width: 100)
+                                        Spacer()
+                                    }
+                    
                                     
                                 }
                                 .frame(width: 100, height: 175)
                                 .contentShape(Rectangle())
                                 .onTapGesture {
-                                    if selectedFacility?.id == facility.id {
-                                        selectedFacility = nil
-                                        showNavigateButton = false
-                                    } else {
-                                        selectedFacility = facility
-                                        showNavigateButton = true
-                                    }
+                                    selectedFacility = facility
+                                    showModal.toggle()
                                 }
                                 .allowsHitTesting(selectedFacility == nil || selectedFacility?.id == facility.id)
                             }
@@ -133,6 +131,8 @@ struct FacilitiesSection: View {
                 }
             }
 
+        }else{
+            Spacer().frame(height: 460)
         }
     }
 }

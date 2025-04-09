@@ -14,7 +14,10 @@ struct BuildingDetailView: View {
                     .scaledToFill()
                     .frame(width: 405, height: 270)
                     .clipped()
-                
+                    .overlay(
+                        LinearGradient(gradient: Gradient(colors: [Color.black.opacity(1),Color.black.opacity(0.2), Color.black.opacity(0)]), startPoint: .top, endPoint: .bottom)
+                            .frame(width: 405, height: 270)
+                    )
                 Spacer() // Space at the bottom to push content up
             }
             

@@ -6,7 +6,7 @@ struct Facility: Identifiable, Codable {
     let imageName: String
     var stepGuides: [FacilitiesStepGuide] // Array to store the step guides
 
-    init(id: UUID = UUID(), name: String,  imageName: String, stepGuides: [FacilitiesStepGuide] = []) {
+    init(id: UUID = UUID(), name: String,  imageName: String, stepGuides: [FacilitiesStepGuide] = [FacilitiesStepGuide(image: "coming-soon", description: "Coming soon")]) {
         self.id = id
         self.name = name
         self.imageName = imageName  

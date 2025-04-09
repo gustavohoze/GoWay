@@ -7,7 +7,7 @@ struct GlobeButton: View {
         Button(action: {
             onTap()  // Call the closure when the button is tapped
         }) {
-            Image("Globe")
+            Image("planet-earth")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 30, height: 30)  // Adjust the size of the globe image if needed
