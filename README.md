@@ -34,7 +34,7 @@ Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and
 
 1.  Clone this repository to your local machine:
     ```bash
-    git clone <repository_url>
+    git clone <https://github.com/gustavohoze/GoWay.git>
     ```
 2.  Open the project in Xcode.
 3.  Build and run the application on your iOS device or simulator.
@@ -43,8 +43,8 @@ Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and
 
 GoWay leverages the following key functionalities:
 
-* **Offline Data Storage:** Building and facility data and navigation path information, and images are stored locally on the device, ensuring offline functionality.
-* **Custom Map Annotations:** MapKit is used to display custom annotations for each building and facility within Green Office Park.
+* **Offline Data Storage:** Building and facility data, navigation path information, and images are stored locally on the device, ensuring offline functionality.
+* **Custom Map Annotations:** MapKit displays custom annotations for each building and facility within Green Office Park.
 * **Route Calculation:** CoreLocation data is utilized to calculate optimal outdoor routes between selected buildings.
 * **Image-Based Navigation:** A curated collection of geotagged images is used to provide step-by-step visual guidance during navigation.
 
@@ -69,7 +69,12 @@ Contributions to GoWay are welcome! If you have suggestions for improvements, bu
 
 ## 🙏 Acknowledgements
 
-* Special thanks to the management and stakeholders of Green Office Park for their potential collaboration or publicly available information. Also, Mr. Vovo, for all the carry.
+* Special thanks to :
+  - Gustavo Ercolesea
+  - Adinda Meutia Rizkina
+  - Muhammad Rifqi Rahman
+
+and the management and stakeholders of Green Office Park for their potential collaboration or publicly available information.
 
 ## 📜 License
 
