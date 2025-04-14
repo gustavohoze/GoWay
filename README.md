@@ -34,7 +34,7 @@ Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and
 
 1.  Clone this repository to your local machine:
     ```bash
-    git clone <https://github.com/gustavohoze/GoWay.git>
+    git clone https://github.com/gustavohoze/GoWay.git
     ```
 2.  Open the project in Xcode.
 3.  Build and run the application on your iOS device or simulator.
