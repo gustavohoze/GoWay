@@ -1,20 +1,18 @@
 <div align="center">
-
-  <img src="https://raw.githubusercontent.com/gustavohoze/GoWay/refs/heads/main/GoWay/Assets.xcassets/AppIcon.appiconset/GowayIconApp.png" alt="GoWay Logo" style="width: 200px; height: 200px; border-radius: 20px;"/>
+  <img src="https://raw.githubusercontent.com/gustavohoze/GoWay/refs/heads/main/GoWay/Assets.xcassets/AppIcon.appiconset/GowayIconApp.png" alt="GoWay Logo" width="200" border-radius: 20px/>
   <h1>GoWay - Your Pocket Guide to GOP</h1>
-
-  <p>
-    [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native%20iOS%20Framework-orange.svg?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
-    [![MapKit](https://img.shields.io/badge/MapKit-Apple%20Maps%20Integration-blue.svg?style=flat-square)](https://developer.apple.com/documentation/mapkit)
-    [![CoreLocation](https://img.shields.io/badge/CoreLocation-Precise%20Location%20Services-brightgreen.svg?style=flat-square)](https://developer.apple.com/documentation/corelocation)
-    ![No Internet Required](https://img.shields.io/badge/Offline-Functionality-lightgrey.svg?style=flat-square)
-  </p>
-
-  <p><strong>GoWay</strong> is a dedicated iOS navigation application meticulously crafted to enhance your experience within the <strong>Green Office Park (GOP)</strong> area. Forget fumbling with confusing maps or asking for directions. GoWay provides a seamless and intuitive way to explore and navigate between buildings and facilities within this vibrant business hub.</p>
-
-  <p>Built entirely using native Apple technologies like <strong>SwiftUI</strong>, <strong>MapKit</strong>, and <strong>CoreLocation</strong>, GoWay offers a smooth and responsive user experience. Best of all, <strong>no internet connection is required</strong> once the app is installed, ensuring reliable access to information and navigation even when you're offline.</p>
-
 </div>
+
+
+[![SwiftUI](https://img.shields.io/badge/SwiftUI-Native%20iOS%20Framework-orange.svg?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
+[![MapKit](https://img.shields.io/badge/MapKit-Apple%20Maps%20Integration-blue.svg?style=flat-square)](https://developer.apple.com/documentation/mapkit)
+[![CoreLocation](https://img.shields.io/badge/CoreLocation-Precise%20Location%20Services-brightgreen.svg?style=flat-square)](https://developer.apple.com/documentation/corelocation)
+![No Internet Required](https://img.shields.io/badge/Offline-Functionality-lightgrey.svg?style=flat-square)
+
+
+**GoWay** is a dedicated iOS navigation application meticulously crafted to enhance your experience within the **Green Office Park (GOP)** area. Forget fumbling with confusing maps or asking for directions. GoWay provides a seamless and intuitive way to explore and navigate between buildings and facilities within this vibrant business hub.
+
+Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and **CoreLocation**, GoWay offers a smooth and responsive user experience. Best of all, **no internet connection is required** once the app is installed, ensuring reliable access to information and navigation even when you're offline.
 
 ## ✨ Key Features
 
