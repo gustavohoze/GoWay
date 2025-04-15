@@ -1,3 +1,4 @@
+<img src="GoWay/Assets.xcassets/AppIcon.appiconset/GowayIconApp.png" alt="Logo Proyek Saya">
 # GoWay - Your Pocket Guide to GOP
 
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native%20iOS%20Framework-orange.svg?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
