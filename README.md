@@ -1,5 +1,8 @@
-<img src="GoWay/Assets.xcassets/AppIcon.appiconset/GowayIconApp.png" alt="Logo Proyek Saya">
-# GoWay - Your Pocket Guide to GOP
+<div align="center">
+  <img src="https://github.com/gustavohoze/GoWay/Assets.xcassets/AppIcon.appiconset/GowayIconApp.png" alt="GoWay Logo" width="200"/>
+  <h1>GoWay - Your Pocket Guide to GOP</h1>
+</div>
+
 
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native%20iOS%20Framework-orange.svg?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
 [![MapKit](https://img.shields.io/badge/MapKit-Apple%20Maps%20Integration-blue.svg?style=flat-square)](https://developer.apple.com/documentation/mapkit)
