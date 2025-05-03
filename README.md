@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gustavohoze/GoWay/refs/heads/main/GoWay/Assets.xcassets/AppIcon.appiconset/GowayIconApp.png" alt="GoWay Logo" width="200" border-radius: 20px/>
+  <img src="https://github.com/rifqi-rahman/serene-estate-experience/blob/abd544e9cfa639bc84ec5c77d1d8fe568080ec89/public/lovable-uploads/768ff817-4a7e-45b8-a345-4b3bd7925523.png" alt="GoWay Logo" width="200" border-radius: 20px/>
   <h1>GoWay - Your Pocket Guide to GOP</h1>
 </div>
 
