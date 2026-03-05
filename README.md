@@ -7,12 +7,14 @@
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-Native%20iOS%20Framework-orange.svg?style=flat-square)](https://developer.apple.com/xcode/swiftui/)
 [![MapKit](https://img.shields.io/badge/MapKit-Apple%20Maps%20Integration-blue.svg?style=flat-square)](https://developer.apple.com/documentation/mapkit)
 [![CoreLocation](https://img.shields.io/badge/CoreLocation-Precise%20Location%20Services-brightgreen.svg?style=flat-square)](https://developer.apple.com/documentation/corelocation)
+[![Foundation](https://img.shields.io/badge/Foundation-Core%20Data%20%26%20Utilities-yellow.svg?style=flat-square)](https://developer.apple.com/documentation/foundation)
+[![Combine](https://img.shields.io/badge/Combine-Reactive%20Programming-purple.svg?style=flat-square)](https://developer.apple.com/documentation/combine)
 ![No Internet Required](https://img.shields.io/badge/Offline-Functionality-lightgrey.svg?style=flat-square)
 
 
 **GoWay** is a dedicated iOS navigation application meticulously crafted to enhance your experience within the **Green Office Park (GOP)** area. Forget fumbling with confusing maps or asking for directions. GoWay provides a seamless and intuitive way to explore and navigate between buildings and facilities within this vibrant business hub.
 
-Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and **CoreLocation**, GoWay offers a smooth and responsive user experience. Best of all, **no internet connection is required** once the app is installed, ensuring reliable access to information and navigation even when you're offline.
+Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, **CoreLocation**, **Foundation**, and **Combine**, GoWay offers a smooth and responsive user experience. Best of all, **no internet connection is required** once the app is installed, ensuring reliable access to information and navigation even when you're offline.
 
 ## ✨ Key Features
 
@@ -26,6 +28,8 @@ Built entirely using native Apple technologies like **SwiftUI**, **MapKit**, and
 * **SwiftUI:** Apple's modern declarative UI framework for building beautiful and responsive user interfaces across all Apple platforms.
 * **MapKit:** Framework providing map display, annotation, and interaction capabilities, tailored for the Green Office Park area.
 * **CoreLocation:** Framework enabling precise location services for accurate pathfinding and contextual awareness within the GOP.
+* **Foundation:** Apple's base layer framework providing essential data types, collections, and operating-system services.
+* **Combine:** Apple's reactive programming framework used to handle asynchronous events and data streams throughout the app.
 
 ## 📱 Target Platform
 
